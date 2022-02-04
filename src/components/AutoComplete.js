@@ -9,7 +9,7 @@ export const AutoComplete = () => {
 	const elRef = useRef();
 
 	const autoList = [
-		'Korea', 'Denmark', 'Peru', 'Japen', 'America', 'Italy', 'Africa', 'test1', 'aaa', 'aaa11', 'adsf', 'aasdfaaa', 'adfasdfasdfsasdfs'
+		'Korea', 'Denmark', 'Peru', 'Japen', 'America', 'Italy', 'Africa', 'Afghanistan', 'Brazil', 'France', 'Finland'
 	]
 
 	const handleInputValue = (e) => {

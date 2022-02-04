@@ -4,6 +4,7 @@ import { Tap } from './components/Tap';
 import { Modal } from './components/Modal';
 import { Tag } from './components/Tag';
 import { ClickToEdit } from './components/ClickToEdit';
+import { AutoComplete } from './components/AutoComplete';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <Modal/>
       <Box/>
       <Tag/>
+      <Box/>
+      <AutoComplete/>
       <Box/>
       <ClickToEdit/>
     </Container>

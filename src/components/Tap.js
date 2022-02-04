@@ -3,11 +3,7 @@ import styled from 'styled-components';
 
 export const Tap = () => {
 
-	const [currentTap, setCurrentTap] = useState(0);
-
-	const handleTap = (tapNum) => {
-		setCurrentTap(tapNum)
-	}
+	const [currentTap, setCurrentTap] = useState(1);
 
 	return (
 		<>

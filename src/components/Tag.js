@@ -29,7 +29,7 @@ export const Tag = () => {
 				{
 					tagList && tagList.map((item, idx) => (
 						<TagButton key={idx}>
-							<span>{item}</span>
+							<div>{item}</div>
 							<div className='close' onClick={() => deleteTag(item)}><IoIosClose/></div>
 						</TagButton>
 					))
@@ -85,6 +85,7 @@ const TagButton = styled.div`
 	padding-left: 10px;
 	padding-right: 5px;
 	margin-right: 5px;
+	white-space: nowrap;
 
 	.close {
 		width: 20px;

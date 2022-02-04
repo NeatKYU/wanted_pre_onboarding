@@ -45,7 +45,7 @@ export const ClickToEdit = () => {
 
 const Container = styled.div`
 	width: 200px;
-	height: 200px;
+	height: auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

@@ -52,9 +52,11 @@ const ModalComponent = styled.div`
 	.wrapper {
 		width: 100vw;
 		height: 100vh;
-		position: absolute;
+		position: fixed;
 		top: 0;
 		left: 0;
+		right: 0;
+		bottom: 0;
 		background-color: black;
 		opacity: 0.5;
 	}
@@ -63,7 +65,7 @@ const ModalComponent = styled.div`
 		width: 300px;
 		height: 200px;
 		background-color: #fff;
-		position: absolute;
+		position: fixed;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);

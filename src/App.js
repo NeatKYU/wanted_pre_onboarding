@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { Toggle } from './components/Toggle';
 import { Tap } from './components/Tap';
 import { Modal } from './components/Modal';
+import { Tag } from './components/Tag';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Tap/>
       <Box/>
       <Modal/>
+      <Box/>
+      <Tag/>
     </Container>
   );
 }

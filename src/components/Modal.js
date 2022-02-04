@@ -46,14 +46,12 @@ const Container = styled.div`
 `
 
 const ModalComponent = styled.div`
-	width: 100vw;
-	height: 100vh;
 	display: ${props => props.isModalOpen ? 'flex' : 'none'};
 	z-index: 100;
 
 	.wrapper {
-		width: 100%;
-		height: 100%;
+		width: 100vw;
+		height: 100vh;
 		position: absolute;
 		top: 0;
 		left: 0;

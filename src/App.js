@@ -3,6 +3,7 @@ import { Toggle } from './components/Toggle';
 import { Tap } from './components/Tap';
 import { Modal } from './components/Modal';
 import { Tag } from './components/Tag';
+import { ClickToEdit } from './components/ClickToEdit';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Modal/>
       <Box/>
       <Tag/>
+      <Box/>
+      <ClickToEdit/>
     </Container>
   );
 }

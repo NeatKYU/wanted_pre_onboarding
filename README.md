@@ -2,13 +2,13 @@
 
 1. toggle
 ![toggle](https://user-images.githubusercontent.com/22316798/152628094-92946e3c-13dd-49e1-99aa-9a93ee2edab3.gif)
- > 구현 방법
+ > ###구현 방법
  >  - 기본적인 스타일은 styled components를 이용하였습니다.
  >  - 클릭시 useState로 값을 변경시켜 애니메이션 트리커로 활용하였습니다.
- > 어려웠던 점
+ > ###어려웠던 점
  >  - 처음엔 클릭시 초록색 div가 회색 div를 덮을 예정이였으나 애니메이션 과정에서 border-radius가 원하는대로 작동하지않아서
  >    덮지 않고 초록색 div가 회색 div를 밀어내는 식으로 작업하였습니다.
- > 실행방법
+ > ###실행방법
  >  - 버튼을 클릭하면 됩니다.
 
 2. tab

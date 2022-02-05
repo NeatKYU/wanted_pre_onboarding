@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Toggle } from './components/Toggle';
-import { Tap } from './components/Tap';
+import { Tab } from './components/Tab';
 import { Modal } from './components/Modal';
 import { Tag } from './components/Tag';
 import { ClickToEdit } from './components/ClickToEdit';
@@ -14,8 +14,8 @@ function App() {
         <Toggle/>
       </Wrapper>
       <Wrapper>
-        <div className='title'>Tap</div>
-        <Tap/>
+        <div className='title'>Tab</div>
+        <Tab/>
       </Wrapper>
       <Wrapper>
         <div className='title'>Modal</div>

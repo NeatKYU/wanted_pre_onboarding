@@ -1,19 +1,19 @@
 import { useState } from 'react';
 import styled from 'styled-components';
 
-export const Tap = () => {
+export const Tab = () => {
 
-	const [currentTap, setCurrentTap] = useState(1);
+	const [currntTab, setCurrentTab] = useState(1);
 
 	return (
 		<>
 			<Container>
-				<div className={`tap ${currentTap === 1 ? 'active':''}`} onClick={() => {setCurrentTap(1)}}>tap1</div>
-				<div className={`tap ${currentTap === 2 ? 'active':''}`} onClick={() => {setCurrentTap(2)}}>tap2</div>
-				<div className={`tap ${currentTap === 3 ? 'active':''}`} onClick={() => {setCurrentTap(3)}}>tap3</div>
+				<div className={`tab ${currntTab === 1 ? 'active':''}`} onClick={() => {setCurrentTab(1)}}>tab1</div>
+				<div className={`tab ${currntTab === 2 ? 'active':''}`} onClick={() => {setCurrentTab(2)}}>tab2</div>
+				<div className={`tab ${currntTab === 3 ? 'active':''}`} onClick={() => {setCurrentTab(3)}}>tab3</div>
 			</Container>
 			<div className='text-section'>
-				tab menu {currentTap === 1 ? 'ONE' : currentTap === 2 ? 'TWO' : 'THREE'}
+				tab menu {currntTab === 1 ? 'ONE' : currntTab === 2 ? 'TWO' : 'THREE'}
 			</div>
 		</>
 	)
@@ -24,7 +24,7 @@ const Container = styled.div`
 	height: 50px;
 	display: flex;
 
-	.tap {
+	.tab {
 		width: 33.33%;
 		height: 100%;
 		background-color: lightgrey;

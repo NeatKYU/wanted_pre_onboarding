@@ -3,8 +3,8 @@
 1. toggle
 ![toggle](https://user-images.githubusercontent.com/22316798/152628094-92946e3c-13dd-49e1-99aa-9a93ee2edab3.gif)
 
-2. tap
-![tap](https://user-images.githubusercontent.com/22316798/152628303-dfcb676e-9eeb-417d-87b6-d8760a4a0bb8.gif)
+2. tab
+![tab](https://user-images.githubusercontent.com/22316798/152628801-9de8d69c-375e-4ff6-8aaf-6ca120a9aa9e.gif)
 
 3. modal
 ![modal](https://user-images.githubusercontent.com/22316798/152628300-ad8a5595-d11f-4af0-94c2-2d27e1580232.gif)
